@@ -99,13 +99,6 @@ As the name suggests, vector fields are the fields whose elements are vectors.
 
 ### Declaration
 
-The following code snippet declares a 3D field of 2D vectors:
-
-```python
-# Declare a 1x2x3 vector field, whose vector dimension is n=2
-f = ti.Vector(ti.f32, n=2).field(shape=(1,2,3))
-```
-
 The following code snippet declares a `300x300x300` vector field `volumetric_field`, whose vector dimension is 3:
 
 ```python
